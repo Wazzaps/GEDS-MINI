@@ -1,0 +1,17 @@
+twist A,B,C so
+
+A = [0, 0]
+B = [?, 0] (Rotate it to be along the x axis)
+C = [?, ?] (Rotate it by the same amount as B)
+
+The testing points are (Referred to as P1, P2 from now on)
+
+x    = (distB^2 - distA^2 - Bx^2) / Bx
+y1,2 = +-sqrt(distA^2 - x^2)
+
+P1 = [x, y1]
+P2 = [x, y2]
+
+Then find the one with the least error factor (Referred to as EF from now on)
+
+EF = abs(sqrt((Px - Cx)^2 + (Py - Cy)^2) - distC)

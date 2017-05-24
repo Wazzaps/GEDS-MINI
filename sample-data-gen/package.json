@@ -1,0 +1,9 @@
+{
+	"name": "geds-sample-data-gen",
+	"version": "1.0.0",
+	"description": "Generates physically accurate input data to test the MAD analyzer",
+	"author": "David Shlemayev <secondlifedvi@gmail.com>",
+	"main": "./generator.js",
+	"private": true,
+	"licence": "MPL-2.0"
+}

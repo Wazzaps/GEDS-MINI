@@ -1,0 +1,12 @@
+{
+  "name": "geds-mini",
+  "version": "1.0.0",
+  "description": "Prototype of GEDS",
+  "main": "app.js",
+  "author": "David",
+  "dependencies": {
+    "express": "^4.14.0",
+    "pug": "^2.0.0-beta5",
+    "socket.io": "^1.4.8"
+  }
+}
